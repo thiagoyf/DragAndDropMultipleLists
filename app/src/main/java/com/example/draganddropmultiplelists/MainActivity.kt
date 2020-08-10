@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
 
         val customPagerAdapter = CustomPagerAdapter(this, 10)
         viewPage2.adapter = customPagerAdapter
+        viewPage2.offscreenPageLimit = 3
     }
 }
